@@ -309,6 +309,7 @@ img{
     padding: 8px 30px;
     color: #000000;
     transition: 2s ease;
+    font-weight: 500;
 }
 
 .sub-button:hover{
@@ -331,6 +332,18 @@ img{
     margin-bottom: 120px;
 }
 
+.form-btn{
+    border: 1px solid #E77C40;
+    background-color: #E77C40;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 40px;
+    transition: transform 2s ease-in-out;
+}
+
+.form-btn:hover{
+    transform: scale(1.1);
+}
 /* footer */
 
 footer{
