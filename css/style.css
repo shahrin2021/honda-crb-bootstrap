@@ -132,7 +132,7 @@ img{
     margin-bottom: 120px;
 }
 .fetured__title{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
     color: #000000;
 }
@@ -182,7 +182,7 @@ img{
 }
 
 .news_heading__title{
-    font-size: 40px;
+    font-size: 50px;
     color: #000000;
     font-weight: 600px;
     margin-bottom: 47px;
@@ -235,7 +235,7 @@ img{
 }
 
 .client__title{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
     color: #0A0826;
     margin-bottom: 50px;
@@ -262,9 +262,85 @@ img{
     font-weight: 600px;
     margin-bottom:112px ;
 }
-
+/* brand new bike */
 .brand__title{
-    font-size: 40px;
+    font-size: 50px;
     color: #000000;
     margin-bottom: 40px;  
 }
+.brand__name{
+    font-size: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive; 
+    margin: 20px 0;
+}
+.brand-new-bike-section{
+    margin-bottom: 120px;
+}
+
+/* subcrib  */
+.input-control{
+    padding: 7px 10px ;
+    max-width: 400px;
+    border: 1px solid #fff;
+}
+
+.input-control:focus{
+    outline: none;
+}
+
+.form__btn{
+    padding: 8px !important;
+}
+
+.subscrib__section{
+    padding: 100px 0;
+    margin-bottom: 120px;
+}
+
+.subscrib__title{
+    font-size: 40px;
+    color: #ffffff;
+}
+.sub-button{
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 8px 30px;
+    color: #000000;
+    transition: 2s ease;
+}
+
+.sub-button:hover{
+    background-color: #264653;
+    border: 1px solid #264653;
+    color: #fff;
+    transition: 2s ease;
+}
+
+/* contact */
+
+.contact__title{
+    font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.contact__section{
+    margin-bottom: 120px;
+}
+
+/* footer */
+
+footer{
+    background-color: #0B0D17;
+    padding: 100px 0;
+}
+
+@media(max-width:767px){
+    .footer__menu{
+        display: block !important;
+    }
+}
+
