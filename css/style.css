@@ -132,7 +132,7 @@ img{
     margin-bottom: 120px;
 }
 .fetured__title{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     color: #000000;
 }
@@ -187,7 +187,7 @@ img{
 }
 
 .news_heading__title{
-    font-size: 50px;
+    font-size: 40px;
     color: #000000;
     font-weight: 600px;
     margin-bottom: 47px;
@@ -245,7 +245,7 @@ img{
 }
 
 .client__title{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     color: #0A0826;
     margin-bottom: 50px;
@@ -273,9 +273,9 @@ img{
     font-weight: 600px;
     margin-bottom:112px ;
 }
-/* brand new bike */
+/* =====================brand new bike======================= */
 .brand__title{
-    font-size: 50px;
+    font-size: 40px;
     color: #000000;
     margin-bottom: 40px;  
 }
@@ -290,7 +290,7 @@ img{
     margin-bottom: 120px;
 }
 
-/* subcrib  */
+/*======================= subcrib=======================  */
 .input-control{
     padding: 7px 10px ;
     max-width: 400px;
@@ -365,6 +365,41 @@ footer{
 @media(max-width:767px){
     .footer__menu{
         display: block !important;
+    }
+
+    .home__title{
+        font-size: 40px;
+    }
+
+    .fetured__title{
+        font-size: 36px;
+    }
+
+    .news_heading__title{
+        font-size: 36px;
+    }
+
+    .client__title{
+        font-size: 36px;
+    }
+
+    .brand__title{
+        font-size: 36px;
+    }
+    .contact__title{
+        font-size: 36px;
+    }
+
+    .subscrib__title{
+        font-size: 36px;
+    }
+
+    .feture__subtitle::after{
+        display: none;
+    }
+
+    .subscrib__title{
+        text-align: center;
     }
 }
 
